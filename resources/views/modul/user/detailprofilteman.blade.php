@@ -70,37 +70,37 @@
             <div class="container">
                 
                 <div class="row">
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/anggora.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/anggora.jpg">
                         </a>
                         <button type="button" class="btn btn-success btn-sm">  <i class="far fa-eye"></i> Detail</button>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/husky.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/husky.jpg">
                         </a>
                         <button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#husky">  <i class="far fa-eye"></i> Detail</button>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/kitten.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kitten.jpg">
                         </a>
                         <button type="button" class="btn btn-success btn-sm">  <i class="far fa-eye"></i> Detail</button>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/kucinglucu.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucinglucu.jpg">
                         </a>
                         <button type="button" class="btn btn-success btn-sm">  <i class="far fa-eye"></i> Detail</button>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/kucinglucu2.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucinglucu2.jpg">
                         </a>
                         <button type="button" class="btn btn-success btn-sm">  <i class="far fa-eye"></i> Detail</button>
                     </div>
-                    <div class="col-md-6 col-lg-4 item">
+                    <div class="col-6 col-md-4 item">
                         <a class="lightbox" href="asset/img/hewanku/kucingsungapura.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucingsungapura.jpg">
                         </a>

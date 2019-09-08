@@ -3,48 +3,44 @@
 <!-- Required Resources -->
 
 <div class="container py-4 my-2">
-    <div class="row">
-        <div class="col-md-4 pr-md-5">
-            <img  style=""class="img-fluid" alt="Responsive image" src="asset/img/user/fariz.jpg" />
-            <div class="pt-4 mt-2">
-                <section class="mb-4 pb-1">
-                   
-                    <div class="work-experience pt-2">
-                          <div class="section">
-                        <h3>@mochammadfarizz</h3>
-                    
-                       
+            <div class="row">
+                <div class="col-md-4 pr-md-5">
+                    <img  style=""class="img-fluid" alt="Responsive image" src="asset/img/user/fariz.jpg" />
+                    <div class="pt-4 mt-2">
+
+                        <section class="mb-4 pb-1">
+                            <div class="work-experience pt-2">
+                                <div class="section">
+                                <h3>@mochammadfarizz</h3>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="mb-5 mb-md-0">
+                        <h3 class="h6 font-weight-light text-secondary text-uppercase">Kontak Saya </h3>
+                        <p> <i style="color:green"class="fas fa-phone-alt"></i> +6287888562143</p>
+                        <a href=""><img height="40px;" width="auto"src="asset/img/desainpelaporan/whatsapp.png"> Hubungi Whatsapp saya. </a>
+                        </section>
+
                     </div>
-                       
-                    </div>    
-                </section>
-                <section class="mb-5 mb-md-0">
-                <h3 class="h6 font-weight-light text-secondary text-uppercase">Kontak Saya </h3>
-                 <p> <i style="color:green"class="fas fa-phone-alt"></i> +6287888562143</p>
-                 <a href=""><img height="40px;" width="auto"src="asset/img/desainpelaporan/whatsapp.png"> Hubungi Whatsapp saya. </a>
-                </section>
-            </div>
-        </div>
+                </div>
+
         <div class="col-md-8">
             <div class="d-flex align-items-center">
                 <h2 class="font-weight-bold m-0">
                     Mochammad Fariz Syah Lazuardy
                 </h2>
-           
-            </div>
+           </div>
                  <address class="m-0 pt-2 pl-0 pl-md-4 font-weight-light text-secondary">
                     <i class="fa fa-map-marker"></i>
                      Depok, Jakarta Selatan
                 </address>
             <p class="h5 text-primary mt-2 d-block font-weight-light">
-              
             </p>
             <p class="lead mt-4">Saya suka dengan anjing doberman dan kucing persia. Teknik Informatika UG 16 . Sedang mencari teman main untuk doberman saya agar melatih kemampuan bersosialisasi dengan anjing lainnya. </p>
            
             <section class="d-flex mt-5">
                 <a href="/editprofil" class="btn btn-success"> <i class="fas fa-cog"></i> Ubah Profil</a>
-              
-                
             </section>
             <section class="mt-4">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -73,42 +69,42 @@
             <div class="container">
               <button style= "rounded:100%"type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#tambahfoto"><i class="fas fa-plus"></i> Tambah Foto</button>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/anggora.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/anggora.jpg">
                         </a>
                         <button type="button" class="btn btn-danger btn-sm">  <i class="fas fa-trash"></i> Hapus</button>
                           <button type="button" class="btn btn-warning btn-sm">  Ubah</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/husky.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/husky.jpg">
                         </a>
                          <button type="button" class="btn btn-danger btn-sm">  <i class="fas fa-trash"></i> Hapus</button>
                          <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#husky">  Ubah</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/kitten.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kitten.jpg">
                         </a>
                          <button type="button" class="btn btn-danger btn-sm">  <i class="fas fa-trash"></i> Hapus</button>
                            <button type="button" class="btn btn-warning btn-sm">  Ubah</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/kucinglucu.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucinglucu.jpg">
                         </a>
                          <button type="button" class="btn btn-danger btn-sm">  <i class="fas fa-trash"></i> Hapus</button>
                            <button type="button" class="btn btn-warning btn-sm">  Ubah</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/kucinglucu2.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucinglucu2.jpg">
                         </a>
                          <button type="button" class="btn btn-danger btn-sm">  <i class="fas fa-trash"></i> Hapus</button>
                            <button type="button" class="btn btn-warning btn-sm">  Ubah</button>
                     </div>
-                    <div class="col-4">
+                    <div class="col-6 col-md-4">
                         <a class="lightbox" href="asset/img/hewanku/kucingsungapura.jpg">
                             <img style="margin-top: 25px;width: 200px; height: 200px;object-fit: cover;" class="rounded img-fluid image scale-on-hover" src="asset/img/hewanku/kucingsungapura.jpg">
                         </a>
@@ -205,81 +201,7 @@
 </div>
                     </div>
                     <!-- Akhir Tab Mengikuti -->
-                    <!-- AWAL tab diikuti -->
-                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="container profile-page">
-    <div class="row">
-        <div class="col-xl-6 col-lg-7 col-md-12">
-            <div class="card profile-header">
-                <div class="body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt=""> </div>
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-12">
-                            <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                            <span class="job_post">Ui UX Designer</span>
-                            <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
-                            <div>
-                                <button class="btn btn-primary btn-round">Mengikuti</button>
-                                <button class="btn btn-light btn-round btn-simple">Detail</button>
-                            </div>
-                         
-                        </div>                
-                    </div>
-                </div>                    
-            </div>
-        </div>
-        
-        
-        <div class="col-xl-6 col-lg-7 col-md-12">
-            <div class="card profile-header">
-                <div class="body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar2.png" alt=""> </div>
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-12">
-                            <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                            <span class="job_post">Ui UX Designer</span>
-                            <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
-                            <div>
-                                <button class="btn btn-primary btn-round">Mengikuti</button>
-                                <button class="btn btn-light btn-round btn-simple">Detail</button>
-                            </div>
-                         
-                        </div>                
-                    </div>
-                </div>                    
-            </div>
-        </div>
-        
-        
-        <div class="col-xl-6 col-lg-7 col-md-12">
-            <div class="card profile-header">
-                <div class="body">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-4 col-12">
-                            <div class="profile-image float-md-right"> <img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt=""> </div>
-                        </div>
-                        <div class="col-lg-8 col-md-8 col-12">
-                            <h4 class="m-t-0 m-b-0"><strong>Michael</strong> Deo</h4>
-                            <span class="job_post">Ui UX Designer</span>
-                            <p>795 Folsom Ave, Suite 600 San Francisco, CADGE 94107</p>
-                            <div>
-                                <button class="btn btn-light btn-round">Follow Back</button>
-                                <button class="btn btn-light btn-round btn-simple">Detail</button>
-                            </div>
-                         
-                        </div>                
-                    </div>
-                </div>                    
-            </div>
-        </div>
-	</div>
-</div>
-                    </div>
-                    <!-- AKHIR Tab diikuti -->
+                 
                 </div>
             </section>
         </div>
