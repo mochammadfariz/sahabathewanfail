@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('master');
+    return view('modul/signinup/login');
 });
 
 Route::get('/laporkomunitas', function () {
@@ -57,6 +57,9 @@ Route::get('/daftar', function () {
 });
 Route::get('/automatch', function () {
     return view('modul.automatch.automatch');
+});
+Route::get('/adopsi', function () {
+    return view('modul.adopsi.index');
 });
 
 

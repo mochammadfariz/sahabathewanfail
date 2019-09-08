@@ -336,6 +336,10 @@
                         <option value="3">Sedikit Galak</option>
                         <option value="1">Galak</option>
                     </select>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Alasan Lepas Adopsi</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
         </form>
       </div>
                 <div class="modal-footer">
@@ -396,6 +400,10 @@
                         <option value="3">Sedikit Galak</option>
                         <option value="1">Galak</option>
                     </select>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Alasan Lepas Adopsi</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
         </form>
       </div>
       <div class="modal-footer">
