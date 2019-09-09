@@ -15,12 +15,16 @@ Route::get('/', function () {
     return view('modul/signinup/login');
 });
 
-Route::get('/laporkomunitas', function () {
+Route::get('/indexlapor', function () {
     return view('modul.pelaporan.index');
 });
 
 Route::get('/dokter', function () {
     return view('modul.pelaporan.dokter');
+});
+
+Route::get('/laporkomunitas', function () {
+    return view('modul.pelaporan.komunitas');
 });
 
 Route::get('/komunitas', function () {

@@ -87,7 +87,7 @@
       <input type="text" name="phone" placeholder="+628780000000" />
      
       <input type="text" name="email" placeholder="email" />
-       <input type="button" style="border-radius: 30px;" name="next" class="next action-button" value="Next" />
+       <input type="button" style="border-radius: 30px;" name="next" class="next action-button" value="Berikutnya" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">BUAT AKUN</h2>
@@ -95,8 +95,8 @@
       <input type="text" name="username" placeholder="@username" />
       <input type="password" name="pass" placeholder="Password" />
       <input type="password" name="cpass" placeholder="Confirm Password" />
-       <input type="button" style="border-radius: 30px;" name="previous" class="previous action-button" value="Previous" />
-      <input type="button" style="border-radius: 30px;" name="next" class="next action-button" value="Next" />
+       <input type="button" style="border-radius: 30px;" name="previous" class="previous action-button" value="Sebelumnya" />
+      <input type="button" style="border-radius: 30px;" name="next" class="next action-button" value="Berikutnya" />
     </fieldset>
     <fieldset>
       <h2 class="fs-title">Selesai</h2>
@@ -106,13 +106,13 @@
     <form action="" class="typecast-form simple-register">
     <p class="simple-reg-terms">
     <label>
-      <span class="checkbox"><input title="Please tick" name="accept_terms" type="checkbox" class="required" id="js-accept-terms" /></span> <span title="Please tick">Saya menyetujui </span> <a target="_blank" href="#license" data-toggle="modal" title="Opens in a new tab">end-user license agreement</a> &amp; <a target="_blank" href="#tof" data-toggle="modal" title="Opens in a new tab">terms of service</a>
+      <span class="checkbox"><input title="Please tick" name="accept_terms" type="checkbox" class="required" id="js-accept-terms" /></span> <span title="Please tick">Saya menyetujui </span> <a target="_blank" href="#license" data-toggle="modal" title="Opens in a new tab">Syarat-syarat</a> &amp; <a target="_blank" href="#tof" data-toggle="modal" title="Opens in a new tab">ketentuan</a>
     </label>
   </p>
   </form>
   </div>
-      <input type="button" style="border-radius: 30px;" name="previous" class="previous action-button" value="Previous" />
-      <input type="submit" style="border-radius: 30px;" name="submit" class="submit action-button" value="Submit" />
+      <input type="button" style="border-radius: 30px;" name="previous" class="previous action-button" value="Sebelumnya" />
+      <input type="submit" style="border-radius: 30px;" name="submit" class="submit action-button" value="Selesai" />
     </fieldset>
   
   </div>

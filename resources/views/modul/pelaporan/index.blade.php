@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/laporkomunitas.css">
     <link rel="stylesheet" type="text/css" href="css/multipleimage.css">
     <title>Hello, world!</title>
+    
   </head>
   
   <body>
@@ -50,9 +51,7 @@
 
       <h4 class="fs-title">Foto 4 sisi</h4>
       <h2 class="fs-subtitle">Unggah foto hewan tampak depan, tampak kiri,tampak kanan & tampak belakang. Foto yang di ambil harus jelas.
-      <input accept=".jpg,.jpeg.,.gif,.png,.mov,.mp4" class="mt-3"type="file" id="file-input" multiple />
-      <input type="button" onClick=removeAllImage() value="Remove All Image" clas="remove"> 
-      <div id="thumb-output"></div>
+     
     
 
 
@@ -192,42 +191,7 @@ Walaupun cantik Purbararang sangat kasar, sombong, kejam dan iri hati terhadap s
 <!-- end depedency -->
 
 
-    <!-- script untuk upload multiple image -->
-    <script>
-  $(document).ready(function(){
-    $('#file-input').on('change', function(){ //on file input change
-        if (window.File && window.FileReader && window.FileList && window.Blob) //check File API supported browser
-        {
-            
-            var data = $(this)[0].files; //this file data
-            
-            $.each(data, function(index, file){ //loop though each file
-                if(/(\.|\/)(gif|jpe?g|png)$/i.test(file.type)){ //check supported file type
-                    var fRead = new FileReader(); //new filereader
-                    fRead.onload = (function(file){ //trigger function on successful read
-                    return function(e) {
-                        var img = $('<img/>').addClass('thumb').attr('src', e.target.result); //create image element 
-                        $('#thumb-output').append(img); //append image to output element
-                    };
-                    })(file);
-                    fRead.readAsDataURL(file); //URL representing the file's data.
-                }
-            });
-            
-        }else{
-            alert("Your browser doesn't support File API!"); //if File API is absent
-        }
-    });
-  
-  $(".remove").click(function (e) {
-        e.preventDefault();
-        data.splice(0, 1);
-        $('#thumb-output a').eq(data.length).remove();
-    });
-});
-
-
-    </script>
+   
     
     <!-- end script untuk upload multiple image -->
   </body>
