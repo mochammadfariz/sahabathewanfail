@@ -26,14 +26,17 @@
     <div class="container" >
         <div class="row" >
             <div class="col-lg-8 col-sm-12 col-11 main-section">
+            <a href="/panduan" class="btn btn-info mb-3" >Panduan Pelaporan</a>
+        
                 <h4 class="text-center ">Personal Detail</h4>
                 <p class="lead text-center ">Isi nomor handphone dan email aktif</p>
-
+    
                 <div class="form-group">
                     <label for="hp">Nomor Handphone Aktif</label>
                     <input type="text" class="form-control" id="hp" placeholder="+62878000000000">
                 </div>
 
+                
                 <div class="form-group">
                     <label for="wa">Nomor Whatsapp Aktif <img height="40px;" width="auto"src="asset/img/desainpelaporan/whatsapp.png"></label>
                     <input type="text" class="form-control" id="wa" placeholder="+62878000000000">

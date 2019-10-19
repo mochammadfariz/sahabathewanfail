@@ -33,6 +33,8 @@
       <fieldset>
       <h1 class="fs-title">Personal Detail</h1>
       <h2 class="fs-subtitle">Isi nomor handphone dan email aktif</h2>
+
+      <button href="/panduan" type="button" class="btn btn-info">Info</button>
       
       <input type="text" name="phone" placeholder="+628780000000" required/>
       <div>

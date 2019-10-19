@@ -65,5 +65,8 @@ Route::get('/automatch', function () {
 Route::get('/adopsi', function () {
     return view('modul.adopsi.index');
 });
+Route::get('/panduan', function () {
+    return view('modul.pelaporan.informasipelaporan');
+});
 
 
